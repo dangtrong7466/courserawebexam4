@@ -48,7 +48,11 @@ main{
     font-weight:bold;
     font-family:Arial;
     text-align:center;
-    line-height:350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
     box-sizing:border-box;
     transition:background-image 0.2s ease;
 }
